@@ -8,7 +8,6 @@ resource "aws_instance" "server1" {
   tags={
     Name = "webserver-1"
   }
-
 }
 resource "aws_instance" "server2" {
   ami = "ami-02d7fd1c2af6eead0"
